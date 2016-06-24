@@ -7,7 +7,7 @@ module Config
     private
 
     def parse(file_content)
-      Config::Parser.json(file_content)
+      Parser.json(file_content)
     end
   end
 end
